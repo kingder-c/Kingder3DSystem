@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Kingder3DSystem", "D:\GitHubProject\Kingder3DSystem\", "{EBA7651C-A487-4F1E-8329-7784C9C5BEE4}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_3135"
+		Debug.AspNetCompiler.PhysicalPath = "D:\GitHubProject\Kingder3DSystem\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_3135\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_3135"
+		Release.AspNetCompiler.PhysicalPath = "D:\GitHubProject\Kingder3DSystem\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_3135\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3135"
+		SlnRelativePath = "D:\GitHubProject\Kingder3DSystem\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBA7651C-A487-4F1E-8329-7784C9C5BEE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA7651C-A487-4F1E-8329-7784C9C5BEE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3678AA1D-2383-494F-8B3F-05EC02A8C937}
+	EndGlobalSection
+EndGlobal
