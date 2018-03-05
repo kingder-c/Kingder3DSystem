@@ -17,11 +17,11 @@
     imageryProviderViewModels: Cesium.createDefaultImageryProviderViewModels(),//可供BaseLayerPicker选择的图像图层ProviderViewModel数组  
     selectedTerrainProviderViewModel: undefined,//当前地形图层的显示模型，仅baseLayerPicker设为true有意义  
     terrainProviderViewModels: Cesium.createDefaultTerrainProviderViewModels(),//可供BaseLayerPicker选择的地形图层ProviderViewModel数组  
-    imageryProvider: new Cesium.ArcGisMapServerImageryProvider({
-        credit: '',
-        //url: '//192.168.0.89:5539/planet-satellite/'
-        url:'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer'
-    }),//图像图层提供者，仅baseLayerPicker设为false有意义  
+    //imageryProvider: new Cesium.ArcGisMapServerImageryProvider({
+    //    credit: '',
+    //    //url: '//192.168.0.89:5539/planet-satellite/'
+    //    url:'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer'
+    //}),//图像图层提供者，仅baseLayerPicker设为false有意义  
     terrainProvider: new Cesium.EllipsoidTerrainProvider(),//地形图层提供者，仅baseLayerPicker设为false有意义 
 
 
@@ -57,4 +57,5 @@ var entities = viewer.entities;
 //阳光照射区域高亮  
 //scene.globe.enableLighting = true; 
 
+ChangeLineTo3D()
 
